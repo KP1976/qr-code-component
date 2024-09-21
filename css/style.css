@@ -68,6 +68,14 @@ a {
   width: 100%;
 }
 
+.card-title {
+  color: var(--slate-900);
+  font-size: var(--font-size-22);
+  line-height: var(--line-height-120);
+  padding: 2.4rem 0 1.6rem;
+  text-align: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
