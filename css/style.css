@@ -68,11 +68,24 @@ a {
   width: 100%;
 }
 
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 2.4rem 1.6rem;
+}
+
 .card-title {
   color: var(--slate-900);
   font-size: var(--font-size-22);
   line-height: var(--line-height-120);
-  padding: 2.4rem 0 1.6rem;
+  text-align: center;
+}
+
+.card-text {
+  color: var(--slate-500);
+  font-size: var(--font-size-15);
+  line-height: var(--line-height-150);
+  padding-top: 1.6rem;
   text-align: center;
 }
 
