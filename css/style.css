@@ -173,6 +173,7 @@ body {
   padding: var(
     --space-16px
   ); /* To prevent the card component from touching the screen edges on small screens. */
+  text-align: center;
 }
 
 .card {
@@ -201,7 +202,6 @@ body {
   font-weight: 700;
   letter-spacing: var(--letter-spacing-0px);
   line-height: var(--line-height-120);
-  text-align: center;
 }
 
 .card-text {
@@ -210,5 +210,4 @@ body {
   letter-spacing: var(--letter-spacing-02px);
   line-height: var(--line-height-150);
   padding-top: var(--space-16px);
-  text-align: center;
 }
