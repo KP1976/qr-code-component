@@ -187,7 +187,8 @@ body {
 
 .card img {
   border-radius: var(--border-radius-16px);
-  width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 .text {
