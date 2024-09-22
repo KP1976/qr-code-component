@@ -179,10 +179,9 @@ body {
   background-color: var(--white);
   border-radius: var(--border-radius-20px);
   box-shadow: var(--shadow);
-  height: 49.9rem;
+  max-width: 20rem;
   padding: var(--space-16px) var(--space-16px) var(--space-40px)
     var(--space-16px);
-  width: 32rem;
 }
 
 .card img {
@@ -193,12 +192,13 @@ body {
 .text {
   display: flex;
   flex-direction: column;
-  padding: var(--space-16px) var(--space-24px);
+  padding: var(--space-24px) var(--space-16px) 0;
 }
 
 .card-title {
   color: var(--slate-900);
   font-size: var(--font-size-22px);
+  font-weight: 700;
   line-height: var(--line-height-120);
   text-align: center;
 }
