@@ -168,7 +168,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: var(--font-name), sans-serif;
-  height: 100dvh;
+  min-height: 100dvh;
   justify-content: center;
   padding: var(
     --space-16px
